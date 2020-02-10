@@ -3,6 +3,10 @@ body {
 }
 .vertical-menu {
     width: 200px; /* Set a width if you like */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
 }
 
 .vertical-menu a {
@@ -20,4 +24,20 @@ body {
 .vertical-menu a.active {
     background-color: #4CAF50; /* Add a green color to the "active/current" link */
     color: white;
+}
+
+.banner{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
+}
+
+.bannercontact{
+    margin-top: 37%;
+}
+
+.forum{
+    text-align: center;
 }
